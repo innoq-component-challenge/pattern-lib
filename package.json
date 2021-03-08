@@ -1,0 +1,15 @@
+{
+	"type": "module",
+	"scripts": {
+		"start": "node src/index.js",
+		"test": "eslint --cache src && echo ✓"
+	},
+	"dependencies": {
+		"classnames": "^2.2.6",
+		"htm": "^3.0.4",
+		"preact-render-to-string": "^5.1.12"
+	},
+	"devDependencies": {
+		"eslint-config-fnd": "^1.10.0"
+	}
+}
