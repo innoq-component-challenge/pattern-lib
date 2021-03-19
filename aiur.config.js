@@ -17,4 +17,5 @@ exports.pages = {
 	forms: "./field-group.md",
 	badge: "./badge.md",
 	list: "./list.md",
+	magic_headers: "./magic_headers.md",
 };
