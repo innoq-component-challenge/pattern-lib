@@ -14,7 +14,7 @@ exports.pages = {
 	".": "./README.md",
 	button: "./button.md",
 	card: "./card.md",
-	forms: "./field-group.md",
+	field_group: "./field-group.md",
 	badge: "./badge.md",
 	list: "./list.md",
 	magic_headers: "./magic_headers.md",
