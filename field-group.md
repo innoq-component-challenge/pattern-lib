@@ -1,5 +1,10 @@
 title: Field Group
 
+The field group doesn't represent an unique challenge to the template language by itself. 
+But it is a very common component which should be implemented by nearly every pattern library
+in the real life. So this component is more or less a test how your template language would
+perform in a real project with a real component which everybody should have seen before.
+
 ## Simple 
 
 Parameter:
@@ -46,7 +51,10 @@ Parameter:
 </div>
 ```
 
-## With data+validation model and I18n
+## Extended version with data+validation model and I18n
+
+The extended version of this component is meant to deal with "form" and "validation" objects from the respective programming environment. Since it has a very different set of parameters this will be most likely be a different component then the
+basic version in your implementation of this pattern library.
 
 Parameter:
 * field: email

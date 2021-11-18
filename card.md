@@ -1,5 +1,11 @@
 title: Card
 
+The Card component is used to demonstrate the support of "named blocks". These are HTML snippets which 
+are inserted into the component. Nearly every template engine has the ability to do this with one
+content block. But the card requires to deal with more then one block containing HTML.
+
+## Basic form with only one block
+
 Parameter:
 * heading level: 2
 * heading: "Foo"
@@ -13,6 +19,10 @@ Parameter:
   </div>
 </section>
 ```
+
+## Wrapping html around a named block
+
+This should wrap an `<a>` tag around the `heading` if the parameter `href` is given. 
 
 Parameter:
 * heading level: 3
@@ -29,6 +39,8 @@ Parameter:
 </section>
 ```
 
+## HTML in named blocks
+
 Parameter:
 * heading level: 2
 * heading: `<span lang="de">Großartige</span> Card`
@@ -42,6 +54,8 @@ Parameter:
   </div>
 </section>
 ```
+
+## Optional elements
 
 Parameter:
 * heading level: 2
