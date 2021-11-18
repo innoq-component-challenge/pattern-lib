@@ -10,11 +10,17 @@
 	<body id="aiur">
 		<nav id="aiur-nav">
 			<resize-handle id="aiur-nav-resize-handle" for="aiur-nav" direction="x" remember></resize-handle>
-			<ul><li><a href="/./">INNOQ Component Challenge</a></li><li><a href="/button/">Button</a></li><li><a href="/card/">Card</a></li><li><a href="/field_group/">Field Group</a></li><li><a href="/badge/">Badge</a></li><li><a href="/list/">List</a></li><li><a href="/magic_headers/">Magic headers</a></li></ul>
+			<ul><li><a href="/./">INNOQ Component Challenge</a></li><li><a href="/badge/">Badge</a></li><li><a href="/button/">Button</a></li><li><a href="/card/">Card</a></li><li><a href="/field_group/">Field Group</a></li><li><a href="/list/">List</a></li><li><a href="/magic_headers/">Magic headers</a></li></ul>
 		</nav>
 		<main id="aiur-doc"><div class="aiur-doc-meta">list</div>
 		<h1>List</h1>
-		<p>Parameter:</p>
+		<p>This component is meant to demonstrate the transformation of complex parameters (like a Map).</p>
+<p>Ideally the <code>items</code> parameter should be an object of your host language and be transformed into
+<code>dt</code> and <code>dd</code> elements by your component's implementation. How to deal with HTML data inside one of this
+objects is an interesting case of black- or whitelisting HTML in host language Strings.</p>
+<p>The <code>ratio</code> parameter should be parsed by your implementation and be used to determine the <code>col-sm-x</code> classes
+for the <code>dt</code> and <code>dd</code> elements.</p>
+<p>Parameter:</p>
 <ul>
 <li>ratio: <code>&quot;1:3&quot;</code></li>
 <li>items: a Map of items (e.g. in JavaScript <code>{'Type': 'Car', 'Foo': '&lt;span lang=&quot;de&quot;&gt;Etwas&lt;/span text'}</code>)</li>

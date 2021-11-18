@@ -10,11 +10,15 @@
 	<body id="aiur">
 		<nav id="aiur-nav">
 			<resize-handle id="aiur-nav-resize-handle" for="aiur-nav" direction="x" remember></resize-handle>
-			<ul><li><a href="/./">INNOQ Component Challenge</a></li><li><a href="/button/">Button</a></li><li><a href="/card/">Card</a></li><li><a href="/field_group/">Field Group</a></li><li><a href="/badge/">Badge</a></li><li><a href="/list/">List</a></li><li><a href="/magic_headers/">Magic headers</a></li></ul>
+			<ul><li><a href="/./">INNOQ Component Challenge</a></li><li><a href="/badge/">Badge</a></li><li><a href="/button/">Button</a></li><li><a href="/card/">Card</a></li><li><a href="/field_group/">Field Group</a></li><li><a href="/list/">List</a></li><li><a href="/magic_headers/">Magic headers</a></li></ul>
 		</nav>
 		<main id="aiur-doc"><div class="aiur-doc-meta">card</div>
 		<h1>Card</h1>
-		<p>Parameter:</p>
+		<p>The Card component is used to demonstrate the support of &quot;named blocks&quot;. These are HTML snippets which
+are inserted into the component. Nearly every template engine has the ability to do this with one
+content block. But the card requires to deal with more then one block containing HTML.</p>
+<h2>Basic form with only one block</h2>
+<p>Parameter:</p>
 <ul>
 <li>heading level: 2</li>
 <li>heading: &quot;Foo&quot;</li>
@@ -42,6 +46,8 @@
 </pre>
 	<external-text hidden id="_0-html-post" class="component-preview-post-code" src="0.html" wrap="pre"></external-text>
 </component-preview>
+<h2>Wrapping html around a named block</h2>
+<p>This should wrap an <code>&lt;a&gt;</code> tag around the <code>heading</code> if the parameter <code>href</code> is given.</p>
 <p>Parameter:</p>
 <ul>
 <li>heading level: 3</li>
@@ -71,6 +77,7 @@
 </pre>
 	<external-text hidden id="_1-html-post" class="component-preview-post-code" src="1.html" wrap="pre"></external-text>
 </component-preview>
+<h2>HTML in named blocks</h2>
 <p>Parameter:</p>
 <ul>
 <li>heading level: 2</li>
@@ -99,6 +106,7 @@
 </pre>
 	<external-text hidden id="_2-html-post" class="component-preview-post-code" src="2.html" wrap="pre"></external-text>
 </component-preview>
+<h2>Optional elements</h2>
 <p>Parameter:</p>
 <ul>
 <li>heading level: 2</li>

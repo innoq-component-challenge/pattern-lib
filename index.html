@@ -10,7 +10,7 @@
 	<body id="aiur">
 		<nav id="aiur-nav">
 			<resize-handle id="aiur-nav-resize-handle" for="aiur-nav" direction="x" remember></resize-handle>
-			<ul><li><a href="/./">INNOQ Component Challenge</a></li><li><a href="/button/">Button</a></li><li><a href="/card/">Card</a></li><li><a href="/field_group/">Field Group</a></li><li><a href="/badge/">Badge</a></li><li><a href="/list/">List</a></li><li><a href="/magic_headers/">Magic headers</a></li></ul>
+			<ul><li><a href="/./">INNOQ Component Challenge</a></li><li><a href="/badge/">Badge</a></li><li><a href="/button/">Button</a></li><li><a href="/card/">Card</a></li><li><a href="/field_group/">Field Group</a></li><li><a href="/list/">List</a></li><li><a href="/magic_headers/">Magic headers</a></li></ul>
 		</nav>
 		<main id="aiur-doc"><div class="aiur-doc-meta">.</div>
 		<h1>INNOQ Component Challenge</h1>
@@ -20,7 +20,22 @@ template language of choice. Is it powerful enough?</p>
 <pre><code>npm i
 npm start
 </code></pre>
-<p>Now you can see the styleguide at <a href="http://localhost:3000">localhost:3000</a></p>
+<p>Now you can see the pattern library at <a href="http://localhost:3000">localhost:3000</a></p>
+<h2>Implementing this library</h2>
+<p>The component's styling is done via Bootstrap 5.0. So you'll need to include Bootstrap's CSS into your HTML:</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;utf-8&quot;&gt;
+		&lt;title&gt;My cool demo pattern library in INSERT YOUR TEMPLATE LANGUAGE HERE&lt;/title&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;
+		&lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl&quot; crossorigin=&quot;anonymous&quot;&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+      ... 
+	&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
 
 		</main>
 		<script src="/script-aiur-5932f426fabd0a4abd0f0279a13f1244.js"></script>
