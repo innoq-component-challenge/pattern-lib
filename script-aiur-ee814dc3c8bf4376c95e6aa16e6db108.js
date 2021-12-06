@@ -195,4 +195,4 @@ class ResizeHandle extends HTMLElement {
 }customElements.define("component-preview", ComponentPreview);
 customElements.define("external-text", ExternalText);
 customElements.define("resize-handle", ResizeHandle);
-customElements.define("tabs-control", TabsConstrol);}());
+customElements.define("tabs-control", TabsConstrol);})();
