@@ -3,8 +3,9 @@
 	"version": "0.1.0",
 	"description": "pattern library to challenge your template language",
 	"scripts": {
-		"start": "aiur --watch --serve 0.0.0.0:3000",
-		"compile": "aiur --fingerprint --compact"
+		"start": "aiur --watch --liveserve 0.0.0.0:3000",
+		"compile": "aiur --fingerprint --compact",
+		"compile_gh": "aiur --fingerprint --compact --baseuri '/pattern-lib/'"
 	},
 	"keywords": [],
 	"author": "innoQ Deutschland GmbH",
@@ -13,6 +14,6 @@
 		"bootstrap": "^5.0"
 	},
 	"devDependencies": {
-		"aiur": "^0.6.0"
+		"aiur": "git://github.com/tillsc/aiur.git"
 	}
 }
